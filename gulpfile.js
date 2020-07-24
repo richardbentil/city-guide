@@ -38,6 +38,10 @@ function images(cb) {
 }
 
 function css(cb) {
+    src(`${origin}/css/*.css`)
+    .pipe(rename({suffix: '.min'}))
+    .pipe(dest(`${destination}/css`));
+
     src(`${origin}/css/style.scss`)
     .pipe(sass({
         outputStyle: 'compressed'
