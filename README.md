@@ -1,6 +1,6 @@
-# A website showcasing a Accra, Ghana
+# City Guide
 
-This is the repository for a web page designed as a city-guide
+This is the repository for a web page designed as a city-guide for Accra, Ghana
 
 ![screenshot](https://github.com/richardbentil/city-guide/blob/master/dist/images/city-guide.png)
 
